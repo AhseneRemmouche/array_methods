@@ -1,4 +1,9 @@
 console.log('Bismi Allah')
+/* The map() method creates a new array with the results of calling a provided function on every element in the calling array. */
+
+let numbers1 = [1, 4, 9, 16];
+let roots = numbers1.map(Math.sqrt); // roots is [1, 2, 3, 4]
+console.log(roots)
 
 /** Map methode execute a call back function on each element in the array and return a new array*/
 console.log('--------example 1-------------')

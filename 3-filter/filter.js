@@ -28,6 +28,7 @@ console.log(kids);
 
 /**---------example 3-------------- */
 /**---indexOf return the first occurrence */
+// remove duplicate
 console.log("---------example 3 remove duplicate-------------");
 
 const numbers1 = [2, 1, 5, 4, 3, 2, 4, 5, 6, 7, 5, 9, 8, 4];
@@ -35,3 +36,11 @@ const num = numbers1.filter((value, index, arr) => {
 	return arr.indexOf(value) === index;
 });
 console.log(num);
+
+//If no elements pass the test, filter() returns an empty array:
+console.log("---------example 4-------------");
+
+let numbers3 = [5, 12, 8, 10, 4];
+let isLargeNumber = (element) => element > 13;
+let filtered = numbers3.filter(isLargeNumber); // filtered is []
+console.log(filtered)
