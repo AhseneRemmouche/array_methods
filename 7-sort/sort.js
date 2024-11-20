@@ -1,8 +1,11 @@
 console.log("Bismi Allah");
 /* The array sort method sorts the elements of an array by manipulating the array (not a copy), the default sort order is ascending it will convert the elements from the array to string and then it will compare their sequences of utf-16 code unit values  */
 
+/* Please note that sort() can behave unexpectedly with numbers, as it converts numbers to strings for sorting. To sort numbers in ascending order, you can use a compare function: */
+
 // Example 1
-/* The array elements will be converted to string and sort method will use utf-16 to sort the elements ascending (smalest to biggest) that why we need to use a function (numbersSort)in this example to sort the numbers correctly and because we have 'a - b' in the function (numbersSort) the '-' operator will convert elements to number */
+/* The array elements will be converted to string and sort method will use utf-16 to sort the elements ascending (smalest to biggest) that why we need to use a function (numbersSort in this case)in this example to sort the numbers correctly and because we have 'a - b' in the function (numbersSort) the '-' operator will convert the operands to number */
+
 
 const numbers = [74, 18, 10, 5, 84, 24, 105];
 //The array elements will be converted to string
