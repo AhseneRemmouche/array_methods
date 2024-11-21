@@ -12,7 +12,7 @@ letters.forEach((item, index, arr) => {
 	//   count[value]++
 	// }
 
-	// code refactoring
+	// refactoring
 	lettersCounter[item]
 		? (lettersCounter[item] += 1)
 		: (lettersCounter[item] = 1);
