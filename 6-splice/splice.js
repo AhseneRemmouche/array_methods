@@ -1,8 +1,10 @@
 console.log("Bismi Allah");
 
-/**--splice change the array by removing or replacing exesting elemrnt from the array it gets starting index, count (means how may elements you want to remove) and it can gets optionnaly new elements who will be placed inside the array then it will change the array and return an array of the deleted elements */
+/**--splice change the array by removing or replacing exesting element from the array it gets starting index, count (means how may elements you want to remove) and it can 
+gets optionnaly new elements who will be placed inside the array then it will change the array and return an array of the deleted elements */
 
-/* The splice() method changes the contents of an array by removing, replacing, or adding elements. It modifies the original array and returns an array containing the deleted elements, if any. */
+/* The splice() method changes the contents of an array by removing, replacing, or adding elements. It modifies the original array and returns an array containing the deleted elements,
+if any. */
 
 /**----------------example 1 remove 3 numbers from index 2 and replace them with 10 and 11 -------------------- */
 console.log("------------------ example 1 -----------------");
